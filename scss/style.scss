@@ -1,0 +1,47 @@
+@import "steper.scss";
+
+header {
+  .logo {
+    padding: 30px;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    color: white;
+  }
+
+  li {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding-right: 0;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+body {
+  min-height: 100vh;
+  background: url(/img/hero.png) no-repeat left center;
+  background-size: cover;
+}
+
+.hero {
+  color: white;
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 67px;
+  }
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+  }
+  display: flex;
+  min-height: 20vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
